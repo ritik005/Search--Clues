@@ -18,7 +18,7 @@ body {
 #nav-bar .navbar-brand {
     font-family: sans-serif;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
     margin-left: 15px;
 }
@@ -137,3 +137,55 @@ small {
     height: 300px;
     padding-top: 20px;
 }
+#social-media {
+    background: #fff;
+    padding: 100px 0;
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.social-icons i {
+    width: 60px;
+    transition: 0.5s;
+    margin: 0 10px;
+    
+}
+.social-icons a:hover i {
+    transform: translateY(-10px);
+}
+
+#footer {
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed  );
+    color: #fff;
+}
+.footer-box {
+    padding: 20px;
+}
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+}
+.footer-box .form-control {
+    box-shadow: none ! important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed  );
+}
+.head {
+    font-size: 30px;
+    font-weight: 700;
+}
+
